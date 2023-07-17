@@ -1,5 +1,5 @@
 ---
-title: 그리디 알고리즘 문제(거스름돈 문제)
+title: 그리디 알고리즘 문제(큰 수 의 법칙)
 date: 2023-07-17 22:16:00 +0900
 categories: [Algorithm, Greedy]
 tags: [github blog,algorithm,greedy]
