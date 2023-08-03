@@ -21,6 +21,7 @@
   {% assign update_list = update_list | push: entry %}
 {% endfor %}
 
+<!--
 {% if update_list.size > 0 %}
   <div id="access-lastmod" class="post">
     <div class="panel-heading">{{- site.data.locales[include.lang].panel.lastmod -}}</div>
@@ -36,4 +37,11 @@
     </ul>
   </div>
   <!-- #access-lastmod -->
+
+<div>
+<a href="https://solved.ac/choi_mung">
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=choi_mung" alt="Solved.ac 프로필">
+</a>
+</div>
+
 {% endif %}
