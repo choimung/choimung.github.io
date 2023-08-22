@@ -30,9 +30,9 @@ masthead_title           : "Hello world" # overrides the website title displayed
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "choimung-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                :  "github-light"
+    issue_term           :  "pathname"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -111,9 +111,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/choimung/"
-    - label: "2.0 ver Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://choimung.gitbub.io/"
+    #- label: "2.0 ver Blog"
+    # icon: "fas fa-fw fa-link"
+    #  url: "https://choimung.gitbub.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -290,3 +290,5 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+
