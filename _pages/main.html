@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Notion-like Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="notion-container">
+    <div class="notion-header">
+      <h1>My Notion-like Page</h1>
+    </div>
+    <div class="notion-content">
+      <div class="notion-block">
+        <h2>Section 1</h2>
+        <p>This is some content in section 1.</p>
+      </div>
+      <div class="notion-block">
+        <h2>Section 2</h2>
+        <p>This is some content in section 2.</p>
+      </div>
+      <!-- Add more sections as needed -->
+    </div>
+  </div>
+</body>
+</html>
+
+---
+layout: archive
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+
+
+{% include paginator.html %}
+
