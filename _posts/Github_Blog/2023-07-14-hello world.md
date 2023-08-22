@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2023-07-14 14:16:30 +0900
-categories: [Blog, blog]
+categories: [blog]
 tags: [github blog]
 ---
 # <center>Hello World</center>
