@@ -4,6 +4,11 @@ title: 자바의정석 Lambda Expression
 date: 2023-08-30 11:57:00 +0900
 categories: [Java]
 tags: [Java]
+toc: true
+toc_sticky: true
+toc_label: 목차
+math: true
+mermaid: true
 
 ---
 
@@ -23,6 +28,7 @@ int max(int a, int b){
 ```java
 (a, b) -> a > b ? a : b
 ```
+
 
 람다식은 익명함수라고도 불린다
 - 반환 타입과 이름이 없다.
@@ -44,17 +50,20 @@ int max(int a, int b){
 ```
 
 2. 반환값이 있는 경우, 식이나 값만 적고 return문 생략 가능(끝에 ';' 안붙임)
+
 ```java
 (int a, int b) -> a > b ? a : b
 ```
 
 3. 매개변수의 타입이 추론 가능하면 생략가능(대부분 생략가능)
+
 ```java
 (a, b) -> a > b ? a : b
 ```
 
 
 ### 람다식 작성하기 - 주의 사항
+
 1. 매개변수가 하나인 경우, 괄호() 생략가능(타입이 없을떄만)
 
 ```java
@@ -63,12 +72,73 @@ int a -> a *a  // ERROR
 ```
 
 2. 블록 안의 문장이 하나뿐 일 때, 괄호{}생략가능(끝에 ';' 안붙임)
+
 ```java
 (int i) -> System.out.println(i)
 ```
 단 하나뿐인 문장이 return 문이면 괄호{} 생략불가
 
 
+### 람다식의 예
+
+```java
+
+//메서드
+int max(int a , int b){
+    return a > b ? a : b;
+}
+
+//람다식
+(a, b) -> a > b ? a:b
+
+```
+
+<hr>
+
+```java
+
+
+//메서드
+int printVar(String name, int i){
+
+    System.out.println(name +"=" + i);
+
+}
+
+
+//람다식
+(String name, int i) -> System.out.println(name + "=" + i);
+
+```
+
+<hr>
+
+```java
+
+// 메서드
+int square(int x){
+    return x * x;
+}
+
+//람다식
+(int x) -> x*x;
+
+```
+
+<hr>
+
+```java
+
+//메서드
+int roll(){
+    return (int)(Math.random() * 6);
+}
+
+//람다식
+
+() -> (int)(Math.random() * 6);
+
+```
 
 함수(메서드)를 간단히 표현하기 위해 사용.
 
