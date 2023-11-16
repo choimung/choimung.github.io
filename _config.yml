@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "최민우 공부방"
+title                    : "ChoiMinu Archive"
 title_separator          : "-"
 subtitle                 : "-" # site tagline that appears below site title in masthead
 name                     : "Choi minu"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Choi Minu"
   avatar           : "image/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello world"
+  bio              : "공부한 내용을 기록합니다."
   location         : "Republic of Korea"
   email            : #"alsdn4590@gmail.com"
   links:
