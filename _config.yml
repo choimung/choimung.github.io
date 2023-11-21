@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Choi Minu"
   avatar           : "image/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부한 내용을 기록합니다."
+  bio              : "공부한 내용을 기록하기."
   location         : "Republic of Korea"
   email            : #"alsdn4590@gmail.com"
   links:
