@@ -170,9 +170,9 @@ figcaption > code,
 td > code {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-    color: #eb5757;
-  font-size: 0.8em;
-  background: #ededeb;
+  color: #990000;
+  font-size: 0.9em;
+  background: #f7f6f3;
   border-radius: $border-radius;
 
   &:before,
@@ -195,7 +195,7 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.4em;
+  margin-bottom: 0.7em;
 }
 
 li ul,
