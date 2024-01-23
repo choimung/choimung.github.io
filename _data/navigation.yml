@@ -12,3 +12,18 @@ main:
     url: /tags/
   - title: "Year"
     url: "/year-archive/"
+
+sidebar-category:
+  - title: "💻 Programming"
+    children:
+      - title: "C#"
+        url: "/csharp"
+        category: "csharp"
+      
+      - title: "Minimal-Mistakes"
+        url: "/Minimal-Mistakes"
+        category: "Minimal-Mistakes"
+
+      - title: "Tools"
+        url: "/Tools"
+        category: "Tools"
