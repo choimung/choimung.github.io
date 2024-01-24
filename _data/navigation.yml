@@ -14,16 +14,8 @@ main:
     url: "/year-archive/"
 
 sidebar-category:
-  - title: "💻 Programming"
+  - title: "프로그래밍"
     children:
-      - title: "C#"
-        url: "/csharp"
-        category: "csharp"
-      
-      - title: "Minimal-Mistakes"
-        url: "/Minimal-Mistakes"
-        category: "Minimal-Mistakes"
-
-      - title: "Tools"
-        url: "/Tools"
-        category: "Tools"
+      - title: "Java"
+        url:  "/Java"
+        category: "Java"

@@ -283,13 +283,15 @@ defaults:
       comments: true
       share: true
       related: true
+    sidebar:                  
+            nav: "sidebar-category" # 추가한 부분 !
   
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+#  # _pages
+#  - scope:
+#      path: "_pages"
+#      type: pages
+#    values:
+#      layout: single
+#      author_profile: true
       
 
