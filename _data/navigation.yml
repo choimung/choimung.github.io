@@ -23,3 +23,10 @@ sidebar-category:
       - title : "📂 Spring"
         url: "/Spring"
         category: "Spring"
+        
+        
+  - title: "ETC"
+    children:
+      - title: "📂"
+        url:  "/Java"
+        category: "Java"
