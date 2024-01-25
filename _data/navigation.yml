@@ -14,8 +14,12 @@ main:
     url: "/year-archive/"
 
 sidebar-category:
-  - title: "프로그래밍"
+  - title: "Programming"
     children:
-      - title: "Java"
+      - title: "📂 Java"
         url:  "/Java"
         category: "Java"
+    
+      - title : "📂 Spring"
+        url: "/Spring"
+        category: "Spring"
