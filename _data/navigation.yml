@@ -24,9 +24,15 @@ sidebar-category:
         url: "/Spring"
         category: "Spring"
         
+  - title: "Security"
+    children:
+      - title: "📂 Web"
+        url:  "/Web-security"
+        category: "Web-security"
         
   - title: "ETC"
     children:
       - title: "📂"
         url:  "/Java"
         category: "Java"
+        
