@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "ChoiMinu Archive"
+title                    : "Yaho"
 title_separator          : "-"
 subtitle                 : "-" # site tagline that appears below site title in masthead
-name                     : "Choi minu"
+name                     : ""
 description              : "천리길도 한 걸음부터"
 url                      : "https://choimung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Choi Minu"
+  name             : " "
   avatar           : "image/profile/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부한 내용을 기록하기."
   location         : "Republic of Korea"
@@ -108,9 +108,9 @@ author:
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
     #  url: "https://www.facebook.com/choimung"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/meanu___"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://www.instagram.com/1234"
     #- label: "2.0 ver Blog"
     # icon: "fas fa-fw fa-link"
     #  url: "https://choimung.gitbub.io/"
@@ -127,21 +127,19 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/alsdn4590"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/alsdn4590"
+      url: "https://github.com/choimung"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/alsdn4590/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
 
 
 # Reading Files

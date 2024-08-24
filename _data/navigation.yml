@@ -14,25 +14,21 @@ main:
 #    url: "/year-archive/"
 
 sidebar-category:
-  - title: "Programming"
+  - title: "record"
     children:
-      - title: "📂 Java"
-        url:  "/Java"
-        category: "Java"
+      - title: "📂 TIL"
+        url:  "/TIL"
+        category: "TIL"
     
-      - title : "📂 Spring"
-        url: "/Spring"
-        category: "Spring"
-        
-  - title: "Security"
-    children:
-      - title: "📂 Web"
-        url:  "/Web-security"
-        category: "Web-security"
-        
-  - title: "ETC"
-    children:
-      - title: "📂"
-        url:  "/Java"
-        category: "Java"
+      - title : "📂 WIL"
+        url: "/WIL"
+        category: "WIL"
+      
+      - title : "📂 MIL"
+        url: "/MIL"
+        category: "MIL"
+
+      - title : "📂 YIL"
+        url: "/YIL"
+        category: "YIL"
         
